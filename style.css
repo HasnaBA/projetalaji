@@ -12,15 +12,39 @@ h1 {
     text-shadow: 0 0 4px #000;
 
 }
+h2, ul {
+    margin:0;
+}
 
 .page-header {
     height: 400px;
     display: flex;
     overflow: hidden;
-    background: red;
     align-items: center;
 }
 
 .page-header img {
     width: 100%;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.group h2 {
+    font-family: sans-serif;
+    background-color: brown;
+    border-radius: 10px;
+    padding: 6px 20px;
+    color: blanchedalmond;
+    margin-bottom: 20px;
+}
+.group ul {
+    font-family: sans-serif;
+    color: honeydew;
+    font-weight: bold;
+    font-size:20px;
 }
