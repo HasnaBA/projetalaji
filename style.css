@@ -12,3 +12,15 @@ h1 {
     text-shadow: 0 0 4px #000;
 
 }
+
+.page-header {
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+    background: red;
+    align-items: center;
+}
+
+.page-header img {
+    width: 100%;
+}
